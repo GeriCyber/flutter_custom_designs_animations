@@ -1,3 +1,4 @@
+import 'package:custom_designs/src/screens/pinterest_grid.dart';
 import 'package:custom_designs/src/screens/slideshow.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Custom designs',
       debugShowCheckedModeBanner: false,
-      home: Slideshow()
+      home: PinterestGrid()
     );
   }
 }
